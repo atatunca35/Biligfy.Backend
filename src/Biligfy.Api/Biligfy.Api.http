@@ -1,0 +1,6 @@
+@Biligfy.Api_HostAddress = http://localhost:5027
+
+GET {{Biligfy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
