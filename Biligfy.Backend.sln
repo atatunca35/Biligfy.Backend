@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3E60BE1-528
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biligfy.Api", "src\Biligfy.Api\Biligfy.Api.csproj", "{BB2503A4-6F1B-42D0-AFAF-C0B222C1BB84}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E08E7E1D-D7E8-4805-908F-4399DFAF7319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biligfy.Api.Tests", "tests\Biligfy.Api.Tests\Biligfy.Api.Tests.csproj", "{8236DE27-068E-4C85-9E37-066476D5D85D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +24,13 @@ Global
 		{BB2503A4-6F1B-42D0-AFAF-C0B222C1BB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB2503A4-6F1B-42D0-AFAF-C0B222C1BB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB2503A4-6F1B-42D0-AFAF-C0B222C1BB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8236DE27-068E-4C85-9E37-066476D5D85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8236DE27-068E-4C85-9E37-066476D5D85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8236DE27-068E-4C85-9E37-066476D5D85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8236DE27-068E-4C85-9E37-066476D5D85D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BB2503A4-6F1B-42D0-AFAF-C0B222C1BB84} = {C3E60BE1-5280-4D18-9EEA-9F3AD75DAD9A}
+		{8236DE27-068E-4C85-9E37-066476D5D85D} = {E08E7E1D-D7E8-4805-908F-4399DFAF7319}
 	EndGlobalSection
 EndGlobal
